@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    /* Отдельные настройки для Node.js (vite.config.ts) */
+    "composite": true,          // Для инкрементальной сборки
+    "module": "ESNext",         // ES-модули (как в основном конфиге)
+    "moduleResolution": "node", // Разрешение модулей Node.js
+    "allowSyntheticDefaultImports": true, // Для CommonJS-библиотек
+    "types": ["node"]           // Типы для Node.js (path, process и т.д.)
+  },
+
+  // Проверяем только vite.config.ts
+  "include": ["vite.config.ts"]
+}
