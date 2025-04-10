@@ -12,6 +12,12 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "eslint-plugin-import": "^2.31.0",
     "path": "^0.12.7",

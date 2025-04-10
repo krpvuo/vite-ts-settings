@@ -1,8 +1,5 @@
-import { useState } from "react";
-
 export const EnvTest = () => {
-  const [state, setState] = useState(null);
-  const string: any = "asd";
+  const string: string = "asd";
 
   console.log(string);
 
